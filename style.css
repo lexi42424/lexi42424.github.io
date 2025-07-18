@@ -1,0 +1,222 @@
+/*ESTILO DEL CUERPO DEL PROGRAMA*/
+
+
+body{
+  margin: 50px 50px ;
+  padding: 0px;
+}
+
+
+/*ESTILO DEL ENCABEZADO DE PÁGINA*/
+
+
+header{
+	font-family: Lucida Handwriting;
+	font-size: 25px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: #183B4E;
+	background-image: url('icon.jpg');
+	text-align: center;
+	padding-top: 25px;
+}
+
+
+/* ESTILO DE LETRAS TITULOS, TEXTOS Y SUBTITULOS*/
+
+
+h4{
+	font-family: Lucida Console;
+	font-size: 15px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: #183B4E;
+	font-weight: normal;
+}
+
+h1{
+	font-family: DaunPenh;
+	font-size: 50px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: #27548A;
+}
+
+h2{
+	font-family: Bodoni MT;
+	font-size: 35px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: #183B4E;	
+	text-align: center;
+}
+
+p{
+	font-family: Lucida Console;
+	font-size: 20px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: #183B4E;
+	font-weight: normal;
+	border: 25px transparent;
+	border-color: transparent;
+}
+
+
+/*ESTILO DE LISTA ORDENADA*/
+
+
+ul{
+	font-family: Lucida Console;
+	font-size: 20px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: #183B4E;
+	font-weight: normal;
+}
+
+
+/*ESTILO DE LINKS*/
+
+
+a{
+	font-family: Lucida Console;
+	font-size: 15px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	color: #27548A;
+}
+
+
+/*ESTILO REPRODUCTOR DE AUDIO*/
+
+
+audio {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-pause-button {
+  color: #333;
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display {
+  color: #333;
+}
+
+audio::-webkit-media-controls-volume-slider-container,
+audio::-webkit-media-controls-volume-slider {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+audio::-webkit-media-controls-volume-slider {
+  color: #555;
+}
+
+
+/*ESTILO TABLA*/
+
+
+table {
+   width: 100%;
+   border: 1px solid #DDA853;
+}
+th, td {
+   width: 25%;
+   text-align: center;
+   font-family: Lucida Console;
+   vertical-align: top;
+   border: 1px solid #DDA853;
+   border-radius:10px;
+   padding: 0.3em;
+   caption-side: bottom;
+}
+
+
+/*ESTILO FORMULARIO*/
+
+
+caption {
+	padding: 0.3em;
+	color: #DDA853;
+    background: #DDA853;
+    border-radius:10px;
+
+}
+th {
+   background: #DDA853;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 12px;
+}
+
+h1 {
+  text-align: center;
+  color: #3a3a3a;
+  margin-bottom: 25px;
+}
+
+form label {
+  display: block;
+  margin: 15px 0 5px;
+  color: #444;
+}
+
+form input,
+form select,
+form textarea {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+  border-color: #5e8b7e;
+  outline: none;
+}
+
+button {
+  margin-top: 15px;
+  width: 70%;
+  padding: 12px;
+  background-color: #5e8b7e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-style: Lucida Console;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #497065;
+}
+
+img{
+	border-radius: 10px;
+	margin: 20px;
+  
+}
